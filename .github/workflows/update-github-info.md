@@ -9,6 +9,7 @@ permissions:
 engine:
   id: copilot
   copilot-sdk: true
+  model: auto
 tools:
   edit:
   web-fetch:
