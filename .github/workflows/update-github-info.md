@@ -19,6 +19,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -27,13 +28,14 @@ safe-outputs:
 
 # Update Mona's GitHub Info page
 
-You keep Mona's website page `site/content/github-info.md` current with the latest GitHub news.
+You keep Mona's website page `site/content/github-info.md` current with the latest GitHub news and community workflows.
 
 ## Sources
 
 1. Read Mona's notes in `notes/mona-notes.md` from this repository using the GitHub repository tools. They describe what Mona cares about and how she likes the page written.
 2. Use web-fetch to read the GitHub Blog: https://github.blog/latest/
 3. Use web-fetch to read the GitHub Changelog: https://github.blog/changelog/
+4. Use web-fetch to read the Awesome Copilot workflows collection: https://awesome-copilot.github.com/workflows/ and include notable new community workflows.
 
 ## What to do
 
