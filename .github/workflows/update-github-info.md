@@ -6,6 +6,7 @@ on:
   schedule: daily
 permissions:
   contents: read
+  copilot-requests: write
 engine:
   id: copilot
   copilot-sdk: true
